@@ -4,9 +4,12 @@
 template <typename T>
 struct Queue
 {
+  Queue() {}
+  ~Queue() {}
+
   void add(T data)
   {
-    arr.insert(data);
+    arr.insert(arr.begin(), data);
   }
 
   void pop()
@@ -27,9 +30,9 @@ struct Queue
     return arr[index];
   }
 
-  T get_element()
+  T get_data()
   {
-    return arr.begin();
+    return arr.front();
   }
 
   private:
