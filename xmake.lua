@@ -1,10 +1,10 @@
 add_rules("mode.debug", "mode.release")
-add_requires("raylib")
+add_requires("raylib", "raygui")
 
 target("grafos")
-	set_kind("binary")
-	add_files("src/*.cpp")
-	add_packages("raylib")
+    set_kind("binary")
+    add_files("src/*.cpp")
+    add_packages("raylib", "raygui")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --

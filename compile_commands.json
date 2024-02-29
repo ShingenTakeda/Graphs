@@ -1,6 +1,6 @@
 [
 {
   "directory": "/home/shingen/Documents/C++/grafos",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-isystem", "/home/shingen/.xmake/packages/r/raylib/5.0/aeed26e13a7a466f9d7c7ad6dd3b75c2/include", "-isystem", "/home/shingen/.xmake/packages/p/python/3.11.3/d8c248d43f4141a9b452cf40280c9f68/include/python3.11", "-DNDEBUG", "-o", "build/.objs/grafos/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-isystem", "/home/shingen/.xmake/packages/r/raygui/4.0/9d606ceee8cb49559023212a8fb08d54/include", "-isystem", "/home/shingen/.xmake/packages/r/raylib/5.0/aeed26e13a7a466f9d7c7ad6dd3b75c2/include", "-DNDEBUG", "-o", "build/.objs/grafos/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
   "file": "src/main.cpp"
 }]
